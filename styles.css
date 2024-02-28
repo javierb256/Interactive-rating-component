@@ -93,14 +93,14 @@ img {
     width: 85vw;
 }
 /* light grey and gre for hover */
-.btn {
+.btn-group .btn {
     /* color: var(--medium-grey);
     background-color: hsl(210, 19%, 18%); */
     color: var(--medium-grey);
     background-color: hsl(210, 19%, 18%);
     /* background-color: red; */
-    width: 40px;
-    height: 40px;
+    width: 3rem;
+    height: 3rem;
     font-size: 0.8rem;
     border-radius: 50%;
     padding: 0;
@@ -129,4 +129,25 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
+
+@media screen and (max-width: 275px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+  .btn-group .btn {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 245px) {
+  .btn-group .btn {
+    width: 25px;
+    height: 25px;
+    /* font-size: 0.6rem; */
+  }
+}
 
