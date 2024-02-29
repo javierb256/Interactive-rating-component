@@ -129,6 +129,52 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
+@media screen and (min-width: 365px) {
+
+  .btn-group .btn {
+    max-width: 8vw;
+    max-height: 12vw;
+  }
+
+  .btn-group{
+    column-gap: 40px !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  .container {
+    width: 45vw;
+  }
+  
+  .btn-group .btn {
+    max-width: 6vw;
+    max-height: 6vw;
+  }
+
+  .btn-group {
+    gap: 1;
+  }
+
+}
+
+@media screen and (min-width: 850px) {
+  .container {
+    width: 40vw;
+    max-width: 400px;
+  }
+
+  .btn-group {
+    justify-content: center !important;
+    column-gap: 1.2rem !important;
+  }
+
+  .btn-group .btn {
+    max-width: 6vw;
+    max-height: 6vh;
+  }
+}
+
 
 @media screen and (max-width: 275px) {
   h1 {
