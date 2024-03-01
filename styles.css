@@ -129,71 +129,56 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 365px) {
-
-  .btn-group .btn {
-    max-width: 8vw;
-    max-height: 12vw;
-  }
-
-  .btn-group{
-    column-gap: 40px !important;
-    justify-content: center !important;
-  }
-}
-
-@media screen and (min-width: 660px) {
+@media  screen and (max-width: 900px) {
   .container {
-    width: 45vw;
-  }
-  
-  .btn-group .btn {
-    max-width: 6vw;
-    max-height: 6vw;
+    max-width: 350px;
   }
 
   .btn-group {
-    gap: 1;
+    gap: 18px;
   }
-
+  .btn-group .btn {
+    width: 30px;
+    height: 43px;
+  }
 }
 
-@media screen and (min-width: 850px) {
-  .container {
-    width: 40vw;
-    max-width: 400px;
-  }
-
+@media screen and (max-width: 341px) {
   .btn-group {
-    justify-content: center !important;
-    column-gap: 1.2rem !important;
+    gap: 11px;
   }
 
   .btn-group .btn {
-    max-width: 6vw;
-    max-height: 6vh;
+    height: 38px;
   }
 }
 
-
-@media screen and (max-width: 275px) {
+@media screen and (max-width: 280px) {
   h1 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
-  p{
-    font-size: 0.8rem;
+  p {
+    font-size: 0.7rem;
   }
-  .btn-group .btn {
-    width: 35px;
-    height: 35px;
-  }
-}
-
-@media screen and (max-width: 245px) {
   .btn-group .btn {
     width: 25px;
-    height: 25px;
-    /* font-size: 0.6rem; */
+    height: 30px;
+  }
+
+  .btn.orange {
+    font-size: 0.8rem;
   }
 }
 
+@media screen and (max-width: 200px) {
+  
+  .btn-group {
+    gap: 5px;
+  }
+  .btn-group .btn {
+    width: 30px;
+    height: 25px;
+  }
+
+
+}
