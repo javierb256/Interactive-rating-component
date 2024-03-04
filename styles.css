@@ -90,6 +90,10 @@ img {
 .container {
     /* background-color: var(--dark-blue); */
     background-color: hsl(215,22%,15%);
+    background-image: 
+    linear-gradient(
+      hsl(215,22%,15%) 60%, hsl(216, 22%, 12%)
+    );
     width: 85vw;
 }
 /* light grey and gre for hover */
@@ -127,6 +131,35 @@ img {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 901px){
+  h1 {
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+
+  img {
+    padding: 0.9rem 0.9rem;
+
+  }
+  .container {
+    max-width: 400px;
+  }
+
+  .btn-group {
+    gap: 20px;
+  }
+
+  .btn-group .btn {
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .btn.orange{
+    letter-spacing: 2px;
+  }
 }
 
 @media  screen and (max-width: 900px) {
