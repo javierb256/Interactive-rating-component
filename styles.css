@@ -88,7 +88,6 @@ img {
 }
 
 .container {
-    /* background-color: var(--dark-blue); */
     background-color: hsl(215,22%,15%);
     background-image: 
     linear-gradient(
@@ -96,13 +95,9 @@ img {
     );
     width: 85vw;
 }
-/* light grey and gre for hover */
 .btn-group .btn {
-    /* color: var(--medium-grey);
-    background-color: hsl(210, 19%, 18%); */
     color: var(--medium-grey);
     background-color: hsl(210, 19%, 18%);
-    /* background-color: red; */
     width: 3rem;
     height: 3rem;
     font-size: 0.8rem;
@@ -112,13 +107,23 @@ img {
 
 .btn:hover {
   background-color: var(--light-grey);
-  color: var(--medium-grey);
+  color: var(--white);
+}
+
+.btn:focus {
+  background-color: var(--orange);
+  color: white;
 }
 
 .btn.orange {
     background-color: var(--orange);
     font-weight: 400;
     width: 100%;
+}
+
+.btn.orange:hover {
+  background-color: white;
+  color: var(--orange) !important;
 }
 
 .attribution {
