@@ -63,9 +63,9 @@ body {
   justify-content: center;
 }
 
-h1{
-    color: var(--white);
-    font-weight: 700;
+h1 {
+  color: var(--white);
+  font-weight: 700;
 }
 
 h2 {
@@ -74,8 +74,8 @@ h2 {
   font-size: 1.5rem;
 }
 p {
-    color: var(--light-grey);
-    /* text-align: center; */
+  color: var(--light-grey);
+  /* text-align: center; */
 }
 
 img {
@@ -84,32 +84,28 @@ img {
   padding: 0.8rem 0.8rem;
 }
 
-.medium-grey{
-    color: var(--medium-grey);
+.medium-grey {
+  color: var(--medium-grey);
 }
 
 .orange {
-    background-color: var(--orange);
-    color: var(--white);
-    
+  background-color: var(--orange);
+  color: var(--white);
 }
 
 .container {
-    background-color: hsl(215,22%,15%);
-    background-image: 
-    linear-gradient(
-      hsl(215,22%,15%) 60%, hsl(216, 22%, 12%)
-    );
-    width: 85vw;
+  background-color: hsl(215, 22%, 15%);
+  background-image: linear-gradient(hsl(215, 22%, 15%) 60%, hsl(216, 22%, 12%));
+  width: 85vw;
 }
 .btn-group .btn {
-    color: var(--medium-grey);
-    background-color: hsl(210, 19%, 18%);
-    width: 3rem;
-    height: 3rem;
-    font-size: 0.8rem;
-    border-radius: 50%;
-    padding: 0;
+  color: var(--medium-grey);
+  background-color: hsl(210, 19%, 18%);
+  width: 3rem;
+  height: 3rem;
+  font-size: 0.8rem;
+  border-radius: 50%;
+  padding: 0;
 }
 
 .btn:hover {
@@ -123,9 +119,9 @@ img {
 }
 
 .btn.orange {
-    background-color: var(--orange);
-    font-weight: 400;
-    width: 100%;
+  background-color: var(--orange);
+  font-weight: 400;
+  width: 100%;
 }
 
 .btn.orange:hover {
@@ -133,8 +129,8 @@ img {
   color: var(--orange) !important;
 }
 
-#thank-you-image{
-  background-color:transparent;
+#thank-you-image {
+  background-color: transparent;
   border-radius: 0%;
   margin: 0 auto;
   display: block;
@@ -154,8 +150,6 @@ img {
   padding: 5px 10px;
 }
 
-
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -168,7 +162,7 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 901px){
+@media screen and (min-width: 901px) {
   h1 {
     font-weight: 700;
     font-size: 1.7rem;
@@ -176,7 +170,6 @@ img {
 
   img {
     padding: 0.9rem 0.9rem;
-
   }
   .container {
     max-width: 400px;
@@ -192,12 +185,12 @@ img {
     font-weight: 700;
   }
 
-  .btn.orange{
+  .btn.orange {
     letter-spacing: 2px;
   }
 }
 
-@media  screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .container {
     max-width: 350px;
   }
@@ -208,6 +201,16 @@ img {
   .btn-group .btn {
     width: 30px;
     height: 43px;
+  }
+
+  .result-container .result {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .result-container .result {
+    width: 85%;
   }
 }
 
@@ -236,10 +239,12 @@ img {
   .btn.orange {
     font-size: 0.8rem;
   }
+  img {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 200px) {
-  
   .btn-group {
     gap: 5px;
   }
@@ -247,6 +252,4 @@ img {
     width: 30px;
     height: 25px;
   }
-
-
 }

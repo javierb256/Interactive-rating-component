@@ -46,24 +46,50 @@
           role="group"
           aria-label="rating buttons"
         >
-          <button class="btn rounded-circle" type="button">1</button>
-          <button class="btn rounded-circle" type="button">2</button>
-          <button class="btn rounded-circle" type="button">3</button>
-          <button class="btn rounded-circle" type="button">4</button>
-          <button class="btn rounded-circle" type="button">5</button>
+          <button class="btn rounded-circle option" type="button" value="1">
+            1
+          </button>
+          <button class="btn rounded-circle option" type="button" value="2">
+            2
+          </button>
+          <button class="btn rounded-circle option" type="button" value="3">
+            3
+          </button>
+          <button class="btn rounded-circle option" type="button" value="4">
+            4
+          </button>
+          <button class="btn rounded-circle option" type="button" value="5">
+            5
+          </button>
         </div>
+
         <div class="d-grid">
-          <button class="btn orange rounded-pill py-2 text-light submit" type="button">
+          <button
+            class="btn orange rounded-pill py-2 text-light submit"
+            type="button"
+          >
             SUBMIT
           </button>
         </div>
       </div>
 
-      <div class="container px-4 px-md-4 py-4 py-md-4 rounded-5 result-container">
-        <img src="./images/illustration-thank-you.svg" alt="rating sent icon" id="thank-you-image" class="mb-3">
-        <p class="rounded-pill mb-4 result">You selected <span>1</span> out of 5</p>
+      <div
+        class="container px-4 px-md-4 py-4 py-md-4 rounded-5 result-container"
+      >
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="rating sent icon"
+          id="thank-you-image"
+          class="mb-3"
+        />
+        <p class="rounded-pill mb-4 result">
+          You selected <span id="finalValue"></span> out of 5
+        </p>
         <h2 class="mb-3">Thank You!</h2>
-        <p>We appreciate you taking the time to give a rating. If you ever need more support. don't hesitate to get in touch!</p>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support. don't hesitate to get in touch!
+        </p>
       </div>
     </main>
 
